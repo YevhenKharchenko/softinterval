@@ -1,5 +1,5 @@
 .header {
-  background: #dadcdf;
+  background: #060a0d;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -40,16 +40,16 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 31px;
   }
 }
 
 .nav-list-link {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: #383838;
+  color: #d0d9fd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,11 +73,11 @@
 }
 
 .menu-icon {
-  stroke: #383838;
+  stroke: #d0d9fd;
 }
 
 .close-icon {
-  stroke: #383838;
+  stroke: #d0d9fd;
 }
 
 .close-btn {
