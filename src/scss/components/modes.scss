@@ -1,0 +1,113 @@
+.modes-section {
+  @include media(desktop) {
+  }
+}
+
+.modes-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.modes-container {
+  @include media(desktop) {
+  }
+}
+
+.modes-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.modes-title {
+  @include media(desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.modes-subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #383838;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    font-size: 28px;
+    margin-bottom: 64px;
+  }
+}
+
+.modes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.modes-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 343px;
+
+  @include media(desktop) {
+    max-width: 352px;
+  }
+}
+
+.modes-item-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #383838;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.modes-img {
+  @include media(desktop) {
+  }
+}
+
+.modes-item-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #383838;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.modes-bottom-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #383838;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}

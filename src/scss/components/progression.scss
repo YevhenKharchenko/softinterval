@@ -1,0 +1,68 @@
+.progression-section {
+  @include media(desktop) {
+  }
+}
+
+.progression-bg-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.progression-container {
+  @include media(desktop) {
+  }
+}
+
+.progression-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+}
+
+.progression-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+  }
+}
+
+.progression-title {
+  @include media(desktop) {
+  }
+}
+
+.progression-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #383838;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.progression-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    min-width: 446px;
+    margin: 0;
+  }
+}
