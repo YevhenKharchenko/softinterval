@@ -4,8 +4,8 @@
 }
 
 .faq-bg-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   margin-left: auto;
   margin-right: auto;
 
@@ -40,8 +40,9 @@
 }
 
 .faq-list-item {
-  border-bottom: 1px solid #a6a6a6;
-  padding-bottom: 15px;
+  background: #18232c;
+  border-radius: 24px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -64,11 +65,11 @@
 }
 
 .faq-btn-text {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
-  color: #764aa7;
+  color: #d0d9fd;
   text-align: left;
 
   @include media(desktop) {
@@ -90,18 +91,18 @@
 }
 
 .faq-icon {
-  stroke: #383838;
+  stroke: #d0d9fd;
 
   @include media(desktop) {
   }
 }
 
 .faq-bottom-text {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #383838;
+  color: #fff;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;

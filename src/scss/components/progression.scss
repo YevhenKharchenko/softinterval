@@ -4,8 +4,8 @@
 }
 
 .progression-bg-wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +25,7 @@
 .progression-content-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 24px;
 
   @include media(desktop) {
     flex-direction: row;
@@ -41,16 +41,18 @@
 }
 
 .progression-title {
+  margin-bottom: 8px;
+
   @include media(desktop) {
   }
 }
 
 .progression-text {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #383838;
+  color: #fff;
 
   @include media(desktop) {
     font-size: 18px;
@@ -62,7 +64,7 @@
   margin-right: auto;
 
   @include media(desktop) {
-    min-width: 446px;
+    min-width: 544px;
     margin: 0;
   }
 }

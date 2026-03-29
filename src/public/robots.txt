@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://quietmargin.space/sitemap.xml
+Sitemap: https://softinterval.space/sitemap.xml
